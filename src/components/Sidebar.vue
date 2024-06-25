@@ -1,8 +1,10 @@
 <script setup>
-import { ref } from "vue";
-import { invoke } from "@tauri-apps/api/tauri";
+    import { RouterLink } from "vue-router";
 </script>
 
 <template>
-
+    <div class="sidebar">
+        <RouterLink to="/explore">Explore</RouterLink>
+        <RouterLink to="/settings">Settings</RouterLink>
+    </div>
 </template>
