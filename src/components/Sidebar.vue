@@ -4,7 +4,26 @@
 
 <template>
     <div class="sidebar">
-        <RouterLink to="/explore">Explore</RouterLink>
-        <RouterLink to="/settings">Settings</RouterLink>
+
+        <!-- Explore Button -->
+        <div class="sidebar-explore">
+            <RouterLink to="/explore">Explore</RouterLink>
+        </div>
+
+        <!-- Divider -->
+        <div class="sidebar-divider"></div>
+
+        <!-- Communities Buttons -->
+        <div class="sidebar-communities">
+            <!-- filled by JS -->
+        </div>
+
+        <!-- Divider -->
+        <div class="sidebar-divider"></div>
+
+        <!-- Join Button -->
+        <div class="sidebar-join">
+
+        </div>
     </div>
 </template>
