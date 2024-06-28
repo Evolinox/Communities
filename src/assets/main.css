@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
+:root {
+    --background-color-primary: #ebebeb;
+    --background-color-secondary: #fafafa;
+    --accent-color: #cacaca;
+    --text-primary-color: #222;
+
+    --sidebar-width: 70px;
+}
+
+:root.dark {
+    --background-color-primary: rgb(56,55,57);
+    --background-color-secondary: #282828;
+    --accent-color: #3f3f3f;
+    --text-primary-color: #ddd;
+
+    --sidebar-width: 70px;
+}
+
 body {
     height: 100%;
     width: 100%;

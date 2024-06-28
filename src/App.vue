@@ -3,23 +3,25 @@
 </script>
 
 <template>
-  <Sidebar id="sidebar"/>
-  <div class="contentview">
-    <RouterView />
+  <div class="mainview">
+    <Sidebar id="sidebar"/>
+    <div class="contentview">
+      <RouterView />
+    </div>
   </div>
 </template>
 
 <style>
   #sidebar {
-    width: 70px;
+    width: var(--sidebar-width);
   }
 
   .contentview {
-    height: 100%;
-    width: calc(100% - 70px);
+    height: 100vh;
+    width: calc(100vw - var(--sidebar-width));
     position: fixed;
-    left: 70px;
+    left: var(--sidebar-width);
     top: 0;
-    background-color: rgb(40,40,40);
+    background-color: var(--background-color-secondary);
   }
 </style>
