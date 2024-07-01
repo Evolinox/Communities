@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 :root {
+    --sidebar-width: 70px;
+}
+
+[theme = "light"] {
     --background-color-primary: #ebebeb;
     --background-color-secondary: #fafafa;
     --accent-color: #cacaca;
     --text-primary-color: #222;
-
-    --sidebar-width: 70px;
 }
 
-:root.dark {
+[theme = "dark"] {
     --background-color-primary: rgb(56,55,57);
     --background-color-secondary: #282828;
     --accent-color: #3f3f3f;
     --text-primary-color: #ddd;
-
-    --sidebar-width: 70px;
 }
 
 body {
@@ -26,6 +26,8 @@ body {
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
+
+    color: var(--text-primary-color);
 
     overflow: hidden;
 }

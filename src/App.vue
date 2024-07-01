@@ -1,14 +1,24 @@
 <script setup>
+  import { useDark } from "@vueuse/core"
   import Sidebar from "./components/Sidebar.vue";
+
+  const isDark = useDark({
+    selector: "body",
+    attribute: "theme",
+    valueDark: "dark",
+    valueLight: "light"
+  })
 </script>
 
 <template>
-  <div class="mainview">
-    <Sidebar id="sidebar"/>
-    <div class="contentview">
-      <RouterView />
+  <body theme=" isDark ? 'dark' : 'light' ">
+    <div class="mainview">
+      <Sidebar id="sidebar" />
+      <div class="contentview">
+        <RouterView />
+      </div>
     </div>
-  </div>
+  </body>
 </template>
 
 <style>

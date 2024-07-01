@@ -23,7 +23,7 @@
 
         <!-- Join Button -->
         <div class="sidebar-bottom">
-
+            <RouterLink to="/settings">Settings</RouterLink>
         </div>
     </div>
 </template>
