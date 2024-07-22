@@ -1,6 +1,6 @@
 <script setup>
   import { useDark } from "@vueuse/core"
-  import Sidebar from "./components/Sidebar.vue";
+  import AppSidebar from "./components/AppSidebar.vue";
 
   const isDark = useDark({
     selector: "body",
@@ -13,7 +13,7 @@
 <template>
   <body theme=" isDark ? 'dark' : 'light' ">
     <div class="mainview">
-      <Sidebar id="sidebar" />
+      <AppSidebar id="appSidebar" />
       <div class="contentview">
         <RouterView />
       </div>
@@ -22,15 +22,15 @@
 </template>
 
 <style>
-  #sidebar {
-    width: var(--sidebar-width);
+  #appSidebar {
+    width: var(--app-sidebar-width);
   }
 
   .contentview {
     height: 100vh;
-    width: calc(100vw - var(--sidebar-width));
+    width: calc(100vw - var(--app-sidebar-width));
     position: fixed;
-    left: var(--sidebar-width);
+    left: var(--app-sidebar-width);
     top: 0;
     background-color: var(--background-color-secondary);
   }
