@@ -3,6 +3,8 @@ import { createApp } from "vue";
 import router from "./router.js";
 import App from "./App.vue";
 
-createApp(App)
-    .use(router)
-    .mount("#app");
+const port = "3000";
+const url = "ws://localhost";
+const socket = new WebSocket(url + ":" + port);
+
+createApp(App).use(router).mount("#app");
