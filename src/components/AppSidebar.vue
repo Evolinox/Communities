@@ -16,6 +16,9 @@
         <!-- Communities Buttons -->
         <div class="sidebar-communities">
             <!-- filled by JS -->
+
+            <!-- Testserver -->
+            <RouterLink to="/server/823h2842029j">Demo</RouterLink>
         </div>
 
         <!-- Divider -->

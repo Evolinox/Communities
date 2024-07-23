@@ -12,6 +12,11 @@ const routes = [
     {
         path: "/settings",
         component: () => import("./views/Settings.vue")
+    },
+    {
+        path: "/server/:id",
+        component: () => import("./views/Server.vue"),
+        props: true
     }
 ];
 

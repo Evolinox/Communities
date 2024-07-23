@@ -2,6 +2,7 @@
 
 :root {
     --app-sidebar-width: 70px;
+    --server-sidebar-width: 400px;
 }
 
 [theme = "light"] {
