@@ -1,7 +1,13 @@
-# Tauri + Vue 3
+<p align="center">
+  <img alt="Communities Logo" src="src-tauri/icons/128x128@2x.png" width="128" />
+  <h1 align="center">Communities</h1>
+</p>
 
-This template should help get you started developing with Tauri + Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+<p align="center">
+    <img alt="Latest Commit Badge" src="https://img.shields.io/github/last-commit/Evolinox/Communities?label=Last%20Commit&logo=GitHub" />
+    <img alt="Latest Release Badge" src="https://img.shields.io/github/release-date-pre/Evolinox/Communities?label=Release&logo=GitHub" />
+    <img alt="Top Language Badge" src="https://img.shields.io/github/languages/top/Evolinox/Communities" />
+    <img alt="Repo Size Badge" src="https://img.shields.io/github/repo-size/Evolinox/Communities?label=Size&logo=GitHub" />
+</p>
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+An open-source Social Network with Tauri + Vue 3
